@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <header>
+    <h1><a href="login.html">Developer.</a></h1>
+  </header>
+  <style>
+    body{
+      background-color:whitesmoke;
+    }
+    h1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  </style>
+  <title>로그인</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <h1>Developer.에 오신 것을 환영합니다!</h1>
+</head>
+<body>
+  <div class="container">
+    <h1>DEV.</h1>
+    <form id="login-form">
+      <div class="form-group">
+        <label for="id">ID</label>
+        <input type="text" id="id" name="id" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" required>
+      </div>
+      <button type="submit">Login</button>
+    </form>
+    <p id="login-status"></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+<footer>
+  <p>&copy; 2023 Developer. All rights reserved.</p>
+  <style>
+    footer{
+      background-color: #333;
+      position:fixed;
+      bottom: 0;
+      width: 100%;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</footer>
+</html>

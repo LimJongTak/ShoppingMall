@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>고객센터</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .contact-info {
+      margin-bottom: 20px;
+    }
+
+    .contact-info h2 {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .contact-info p {
+      margin: 0;
+      color: #888;
+    }
+
+    .contact-form input[type="text"],
+    .contact-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+    }
+
+    .contact-form textarea {
+      height: 100px;
+    }
+
+    .contact-form button {
+      background-color: #ff0000;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Developer.</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">홈</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">상품</a>
+          <div class="dropdown-content">
+            <a href="top.html">상의</a>
+            <a href="bottom.html">바지</a>
+            <a href="outer.html">아우터</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">브랜드</a>
+          <div class="dropdown-content">
+            <a href="https://www.musinsa.com/brands/musinsastandard">MUSINSA STANDARD</a>
+            <a href="https://www.musinsa.com/brands/suare">SUARE</a>
+            <a href="https://www.musinsa.com/brands/lafudgestore">LAFUDGE STORE</a>
+          </div>
+        </li>
+        <li><a href="login.html">로그인</a></li>
+        <li><a href="basket.html">장바구니</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">더 보기</a>
+          <div class="dropdown-content">
+            <a href="mypage.html">마이 페이지</a>
+            <a href="history.html">주문 내역</a>
+            <a href="service.html">고객 센터</a>
+          </div>  
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="contact-info">
+      <h2>고객센터</h2>
+      <p>고객센터 전화번호: 123-4567-8901</p>
+      <p>이메일: support@example.com</p>
+    </div>
+    <form class="contact-form">
+      <input type="text" placeholder="이름">
+      <input type="text" placeholder="이메일">
+      <textarea placeholder="문의 내용"></textarea>
+      <button type="submit">문의하기</button>
+    </form>
+  </div>
+</body>
+<footer>
+  <p>&copy; 2023 Developer. All rights reserved.</p>
+</footer>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>DEV. MyPage</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .profile img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-right: 20px;
+    }
+
+    .profile .details {
+      flex-grow: 1;
+    }
+
+    .profile h2 {
+      margin: 0;
+    }
+
+    .profile p {
+      margin: 0;
+      color: #888;
+    }
+
+    .order-history {
+      margin-bottom: 20px;
+    }
+
+    .order-history h3 {
+      margin: 0;
+      margin-bottom: 10px;
+    }
+
+    .order-history .order {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin-bottom: 10px;
+    }
+
+    .order-history .order .order-details {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .order-history .order .order-details p {
+      margin: 0;
+      color: #888;
+    }
+
+    .order-history .order .order-status {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1><a href="index.html">Developer.</a></h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">홈</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">상품</a>
+          <div class="dropdown-content">
+            <a href="top.html">상의</a>
+            <a href="bottom.html">바지</a>
+            <a href="outer.html">아우터</a>
+          </div>
+        </li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">브랜드</a>
+          <div class="dropdown-content">
+            <a href="https://www.musinsa.com/brands/musinsastandard">MUSINSA STANDARD</a>
+            <a href="https://www.musinsa.com/brands/suare">SUARE</a>
+            <a href="https://www.musinsa.com/brands/lafudgestore">LAFUDGE STORE</a>
+          </div>
+        </li>
+        <li><a href="login.html">로그인</a></li>
+        <li><a href="basket.html">장바구니</a></li>
+        <li class="dropdown">
+          <a href="javascript:void(0)" class="dropbtn">더 보기</a>
+          <div class="dropdown-content">
+            <a href="mypage.html">마이 페이지</a>
+            <a href="history.html">주문 내역</a>
+            <a href="service.html">고객 센터</a>
+          </div>  
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div class="container">
+    <div class="profile">
+      <img src="png\profile.png" alt="프로필 사진">
+      <div class="details">
+        <h2>임종탁</h2>
+        <p>이메일: tak6030@daum.net</p>
+      </div>
+    </div>
+    <div class="order-history">
+      <h3>주문 내역</h3>
+      <div class="order">
+        <div class="order-details">
+          <p>주문 번호: 123456</p>
+          <p class="order-status">배송 완료</p>
+        </div>
+        <p>주문 일자: 2023-07-01</p>
+        <p>주문 금액: 50,000원</p>
+      </div>
+      <div class="order">
+        <div class="order-details">
+          <p>주문 번호: 789012</p>
+          <p class="order-status">배송 준비중</p>
+        </div>
+        <p>주문 일자: 2023-07-03</p>
+        <p>주문 금액: 70,000원</p>
+      </div>
+    </div>
+  </div>
+</body>
+<footer>
+  <p>&copy; 2023 Developer. All rights reserved.</p>
+</footer>
+</html>
