@@ -5,7 +5,7 @@ event.preventDefault(); // 폼 제출 방지
  var id = document.getElementById("id").value;
 var password = document.getElementById("password").value;
   
-// 아이디와 비밀번호가 올바른지 확인
+// 아이디와 비밀번호가 올바른지 확인 하기
 if (id === "admin" && password === "password") {
 document.getElementById("login-status").textContent = "로그인 성공!";
 setTimeout(function() {
